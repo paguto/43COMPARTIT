@@ -86,14 +86,14 @@ public class Aresta {
 	 /* pre: Aresta amb flux valid
      * post: retorna el flux de la Aresta.
      */
-    public int getCapacitat() {
-        return capacitat;
+    public int getFlux() {
+        return flux;
     }
     
     /* La Aresta és vàlida.
      * flux pren el valor del paràmetre implícit.
      */
-    public void setCapacitat(int capacitat) {
-        this.capacitat = capacitat;
+    public void setFlux(int flux) {
+        this.flux = flux;
     }  
 }
