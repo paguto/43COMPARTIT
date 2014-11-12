@@ -2,13 +2,10 @@ import Aresta.*;
 import Vertex.*;
 import Graf.*;
 
-public class Algoritmo {
+public abstract class Algoritmo {
 	int[] Path;
 	
-	private int trobacami(Graf G, int[] Path){
-		return 1;
-		
-	}
+    protected abstract int trobacami(Graf G, int[] Path);
 	
     public Graf getResidual(Graf G){
     	
@@ -46,7 +43,4 @@ public class Algoritmo {
             }
             return G;
     }
-		
-
-
 }  
