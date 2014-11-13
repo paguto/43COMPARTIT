@@ -3,7 +3,15 @@ import Vertex.*;
 import Graf.*;
 import java.util;  //para usar Array List i Vector
 
- int trobacami(Graf G, int[] Path){
+@author Enric
+
+public interface Dikstra {
+    
+    //pre: graf vàlid pot ser G residual
+    //post: retorna la capacitat del cami i Path[] la id dels vertex que formenen el cami
+        
+
+ public int trobacami(Graf G, int[] Path){
 
 	int[] Capacitats = Path;
 	for(int i = 1; i< Path.size(); i++) Capacitats[i] = -1 ;
@@ -84,6 +92,7 @@ import java.util;  //para usar Array List i Vector
 	return Cap;									//retornem la Cap del camí escollit
 }
 
+}
 
 /*
 
