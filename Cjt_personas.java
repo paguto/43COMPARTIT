@@ -13,12 +13,13 @@ import java.util.Map;
 
 public class Cjt_personas {
     private static int idcount = 0;
-    public Map<Integer, Persona> cjt_pers = new HashMap<Integer, Persona>();
+    public Map<Integer, Persona> cjt_pers;
     private int id;
 
 //Constructoras
 
 public Cjt_personas() {
+    cjt_pers = new HashMap<Integer, Persona>();
      id = idcount;
     idcount = idcount + 1;
 
