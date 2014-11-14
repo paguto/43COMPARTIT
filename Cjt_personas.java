@@ -1,4 +1,4 @@
-
+package PersonaPKG;
 import java.util.HashMap;
 import java.util.Map;
 /*
@@ -35,14 +35,20 @@ public cjtPersona() {
         return id;
     }
     
-     public int getNumPersonas() {
+     public int getNumPersones() {
         return cjt_pers.size();
     }
     
      public HashMap<Integer, Persona> getcjtPersona() {
         return cjt_pers;
-        
     }
+    
+      public Persona getPersona (int id){
+          if(cjt_pers.containsKey(id)) {
+             return cjt_pers.get(id);
+          }
+          else return null;
+      }
 
     //Modificadores
     
@@ -50,6 +56,15 @@ public cjtPersona() {
     public void setId(int id) {
         this.id = id;
     }
+    
+     public void addPersona(int iD, String nom){
+         cjt_pers.put(iD,nom);
+     }
+     
+     public void deletePersona(int id){
+         cjt_pers.remove(id);
+     }
+    
      
      
 
