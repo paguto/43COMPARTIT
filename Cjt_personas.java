@@ -11,21 +11,21 @@ import java.util.Map;
  * @author mehdi.taleb
  */
 
-public class Cjt_personas {
+public class cjtPersona {
     private static int idcount = 0;
     private Map<Integer, Persona> cjt_pers;
     private int id;
 
 //Constructoras
 
-public Cjt_personas() {
+public cjtPersona() {
     cjt_pers = new HashMap<Integer, Persona>();
      id = idcount;
     idcount = idcount + 1;
 
 }
 
-    public Cjt_personas(int id) {
+    public cjtPersona(int id) {
         this.id = id;
     }
 
@@ -39,7 +39,7 @@ public Cjt_personas() {
         return cjt_pers.size();
     }
     
-     public HashMap<Integer, Persona> getCjt_personas() {
+     public HashMap<Integer, Persona> getcjtPersona() {
         return cjt_pers;
         
     }
