@@ -57,8 +57,8 @@ public cjtPersona() {
         this.id = id;
     }
     
-     public void addPersona(int iD, String nom){
-         cjt_pers.put(iD,nom);
+     public void addPersona(int id, String nom){
+         cjt_pers.put(id,nom);
      }
      
      public void deletePersona(int id){
