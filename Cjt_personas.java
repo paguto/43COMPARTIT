@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class Cjt_personas {
     private static int idcount = 0;
-    public Map<Integer, Persona> cjt_pers;
+    private Map<Integer, Persona> cjt_pers;
     private int id;
 
 //Constructoras
@@ -38,8 +38,15 @@ public Cjt_personas() {
      public int getNumPersonas() {
         return cjt_pers.size();
     }
+    
+     public HashMap<Integer, Persona> getCjt_personas() {
+        return cjt_pers;
+        
+    }
 
     //Modificadores
+    
+   
     public void setId(int id) {
         this.id = id;
     }
