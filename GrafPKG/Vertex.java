@@ -1,6 +1,6 @@
+package GrafPKG;
 import java.util.ArrayList;
 import java.util.Iterator;
-
 /**
  * @author Marina Sauca
  * @version 0.1
@@ -27,7 +27,7 @@ public class Vertex {
      * Consultora del ID
      * @return ID del vertex
      */
-    public int getID(){
+    public int getId(){
         return ID;
     }
 

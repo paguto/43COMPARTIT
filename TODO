@@ -1,0 +1,32 @@
+Clases de les que no hi ha RES:
+    -Solucio.java
+    -ControladorSolucio.java
+    -ControladorGraf.java
+    -DFS.java
+
+Clases que s'han de refer:
+    -Graf.java
+    -cjtPersona.java (t'he posat quines funcions cal que tingui)
+
+
+Clases que no compilen:
+    -Algorisme.java (revisa la nomenclatura de les funcions de Graf un cop estigui refet)
+    -Dijkstra.java (revisa els noms de les funcions de vertex i graf, un cop estigui refet)
+
+Coses a modificar:
+    -La funcio trobarCami ha de tindre com a parametre ControladorGraf, no Graf. i fer servir les fucnions d'aquest
+           clases afectades:
+                -Algoritmo.java
+                -DFS.java
+                -BFS.java
+                -Disjkstra.java
+
+Stubs i Drivers:
+    -Cal que cadascú faci el seu de les seves clases.
+        -Stub: Heu de fer la mateixa clase, pero que els metodes siguien de l'estil
+                    "public int getID() { return 42; }"
+        -Driver: Heu de fer un programa amb main que cridi als metodes de la vostra clase, en plan, si l'input es 1,
+                aquest metodes, si es 2 aquest altre, etc.
+
+        El conjunt d'aquestes dues clases i la vostra, faran que els profes i nosaltres poguem testejar el funcionament
+        individual de cada clase.

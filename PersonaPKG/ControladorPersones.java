@@ -1,8 +1,10 @@
+package PersonaPKG;
 /**
  * @author Marina Sauca
  * @version 0.1
  * @since 13.11.2014
  */
+
 
 public class ControladorPersones {
     private cjtPersona Persones;

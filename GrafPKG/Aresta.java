@@ -1,3 +1,4 @@
+package GrafPKG;
 /**
  * Classe Aresta
  * @author arnau.santamaria
@@ -7,14 +8,14 @@ public class Aresta {
     private int capacitat;
     private int id_vertex_original;
     private int id_vertex_adjunt;
-	private int flux;
+    private int flux;
 
     /* pre: cert
      * post: El resultat és una aresta buida.
      */
     public Aresta() {
     }
-    
+
     /* pre: cost i capacitat son vàlids.
      * post: El resultat és una Aresta amb els paràmetres implícits.
      */
@@ -46,7 +47,7 @@ public class Aresta {
     public int getId_vertex_adjunt() {
         return id_vertex_adjunt;
     }
-        
+
     /*
      * Pre:  El vertex és vàlid.
      * Post: vertex_adjunt pren el valor del paràmetre implícit.
@@ -54,46 +55,46 @@ public class Aresta {
     public void setId_vertex_adjunt(int id_vertex_adjunt) {
         this.id_vertex_adjunt = id_vertex_adjunt;
     }
-    
+
     /* pre: Aresta amb cost vàlid.
      * post: retorna el cost de la Aresta.
      */
     public int getCost() {
         return cost;
     }
-    
+
     /* pre: La Aresta és vàlida.
      * post: cost pren el valor del paràmetre implícit.
      */
     public void setCost(int cost) {
         this.cost = cost;
     }
-    
+
     /* pre: Aresta amb capacitat vàlida.
      * post: retorna la capacitat de la Aresta.
      */
     public int getCapacitat() {
         return capacitat;
     }
-    
+
     /* La Aresta és vàlida.
      * capacitat pren el valor del paràmetre implícit.
      */
     public void setCapacitat(int capacitat) {
         this.capacitat = capacitat;
-    }  
-	
-	 /* pre: Aresta amb flux valid
-     * post: retorna el flux de la Aresta.
-     */
+    }
+
+    /* pre: Aresta amb flux valid
+    * post: retorna el flux de la Aresta.
+    */
     public int getFlux() {
         return flux;
     }
-    
+
     /* La Aresta és vàlida.
      * flux pren el valor del paràmetre implícit.
      */
     public void setFlux(int flux) {
         this.flux = flux;
-    }  
+    }
 }
