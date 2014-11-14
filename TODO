@@ -20,6 +20,7 @@ Coses a modificar:
                 -DFS.java
                 -BFS.java
                 -Disjkstra.java
+    -La clase Aresta ha de complir l'especifiacio (cada aresta ha de tenir el seu id)
 
 Stubs i Drivers:
     -Cal que cadascú faci el seu de les seves clases.
